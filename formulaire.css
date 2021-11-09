@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Louis George Cafe";
+    src: url(Louis\ George\ Cafe.ttf)
+         format("truetype");
+   }
+h1{
+	text-align: center;
+	color:white;
+    font-size: 300%;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+body{
+    margin: 0 auto;
+}
+section.top-page {
+    background: url("image1titre.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 5px;
+}
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+}
+p.definition {
+    color: black;
+    font-size: 200%;
+    text-align: center;
+}
+/* menu de navigation */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(49, 25, 4);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 136, 0);
+}
+form{
+    color: white;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px blue;
+    border-radius: 1em;
+}
+form div+div{
+    margin-top: 1em;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+input,
+textarea{
+    font: 1em sans-serif;
+    width: 800px;
+    box-sizing: border-box;
+    border: grey;
+
+}
+input:focus,textarea:focus{
+    border-color: yellow;
+}
+textarea{
+    vertical-align: top;
+    height: 10em;
+}
+button{
+    margin-left: 1em;
+    color: blueviolet;
+    
+}
+input,textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: green;
+}
+input:focus,textarea:focus{
+    border-color: greenyellow;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+}
+button{
+    margin-left: 5em;
+}
+body{
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+p.defi {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+p.defi2 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+p.defi3 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+
+h1.title{
+	text-align: center;
+	color:white;
+    font-size: 300%;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+body{
+    margin: 0 auto;
+}
+section.top-page {
+    background: url("image1titre.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 5px;
+}
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+}
+p.definition {
+    color: black;
+    font-size: 200%;
+    text-align: center;
+}
+/* menu de navigation */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(49, 25, 4);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 136, 0);
+}
